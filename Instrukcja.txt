@@ -1,0 +1,11 @@
+Instrukcja obsługi generatora PDF: 
+
+Program został wykonany przy użyciu XAMPP.
+
+Aby program działał poprawnie należy umieścić wszystkie pliki w folderze "rekrutacja".
+
+Następnie należy utworzyć bazę danych MySQL o nazwie "form_data" oraz zaimportować do niej plik o tej samej nazwie z rozszerzeniem sql (form_data.sql).
+
+Aby wybrać 1 z 3 istniejących formularzy na stronie należy kliknąć na interesujący nas formularz, strona sama zmieni plik .json po wybraniu intersującego nas wzorca.
+
+
