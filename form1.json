@@ -1,0 +1,72 @@
+{
+  "id": 1,
+  "title": "Formularz rejestracyjny",
+  "action": "/submit-form.php",
+  "send_to": "database",
+  "fields": [
+    {
+      "name": "personal_info",
+      "label": "Informacje personalne",
+      "type": "fieldset",
+      "order": 1,
+      "fields": [
+        {
+          "name": "name",
+          "label": "Imię i nazwisko",
+          "type": "text",
+          "required": true,
+          "order": 1
+        },
+        {
+          "name": "email",
+          "label": "Adres e-mail",
+          "type": "email",
+          "required": true,
+          "order": 2
+        },
+        {
+          "name": "password",
+          "label": "Hasło",
+          "type": "password",
+          "required": true,
+          "order": 3
+        },
+        {
+          "name": "gender",
+          "label": "Płeć",
+          "type": "radio",
+          "required": true,
+          "options": [
+            {
+              "label": "Mężczyzna",
+              "value": "male"
+            },
+            {
+              "label": "Kobieta",
+              "value": "female"
+            },
+            {
+              "label": "Inna",
+              "value": "other"
+            }
+          ],
+          "order": 4
+        }
+      ]
+    },
+    {
+      "name": "newsletter",
+      "label": "Zapisz się do newslettera",
+      "type": "checkbox",
+      "required": false,
+      "order": 2
+    },
+    {
+      "name": "message",
+      "label": "Wiadomość",
+      "type": "textarea",
+      "required": false,
+      "order": 3
+    }
+  ]
+}

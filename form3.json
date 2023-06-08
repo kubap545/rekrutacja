@@ -1,0 +1,50 @@
+{
+  "id": 3,
+  "title": "Formularz rejestracyjny",
+  "action": "/submit-form.php",
+  "send_to": "api",
+  "fields": [
+    {
+      "name": "name",
+      "label": "Imię i nazwisko",
+      "type": "text",
+      "required": true,
+      "order": 1
+    },
+    {
+      "name": "email",
+      "label": "Adres e-mail",
+      "type": "email",
+      "required": true,
+      "order": 2
+    },
+    {
+      "name": "email",
+      "label": "Adres e-mail",
+      "type": "email",
+      "required": true,
+      "order": 2
+    },
+    {
+      "name": "gender",
+      "label": "Płeć",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "label": "Mężczyzna",
+          "value": "male"
+        },
+        {
+          "label": "Kobieta",
+          "value": "female"
+        },
+        {
+          "label": "Inna",
+          "value": "other"
+        }
+      ],
+      "order": 3
+    }
+  ]
+}
